@@ -52,7 +52,11 @@
 		border-radius: var(--radius-card);
 		width: 100%;
 		max-width: 450px;
-		min-height: 100%;
+
+		@include xl {
+			min-height: 100%;
+			overflow: hidden;
+		}
 	}
 
 	article h1 {
