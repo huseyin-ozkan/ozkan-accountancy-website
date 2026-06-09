@@ -1,5 +1,26 @@
 # Changelog
 
+## [2.1.0](https://github.com/huseyin-ozkan/ozkan-accountancy-website/compare/v2.0.0...v2.1.0) (2026-06-09)
+
+
+### Features
+
+* improve seo with json-ld, og image and such and fix seo issues ([4f7127b](https://github.com/huseyin-ozkan/ozkan-accountancy-website/commit/4f7127bd12a6cb8654952e6f3d82469e465ad03b))
+* move /blog/index to /posts/index for consistency ([25aab36](https://github.com/huseyin-ozkan/ozkan-accountancy-website/commit/25aab362a30518e560508f4bb9840383cecabc5c))
+* new logos ([856e598](https://github.com/huseyin-ozkan/ozkan-accountancy-website/commit/856e598b276bcdfcf9e066be2ae318df1a4b2485))
+* robots.txt ([a87ae6d](https://github.com/huseyin-ozkan/ozkan-accountancy-website/commit/a87ae6dfd88dbeaed375a2f2da91ebc72f481f1c))
+
+
+### Bug Fixes
+
+* announcements section mobile overflow issue ([87c87bb](https://github.com/huseyin-ozkan/ozkan-accountancy-website/commit/87c87bbc3e975434d54caaaa97cdb057dd5156d4))
+* announcements sorting issue ([5e9b800](https://github.com/huseyin-ozkan/ozkan-accountancy-website/commit/5e9b8004b633d8131a19eea87a3631483014047a))
+
+
+### Performance Improvements
+
+* improve data loading from sanity with fewer requests ([733c853](https://github.com/huseyin-ozkan/ozkan-accountancy-website/commit/733c8539ad6206e7e152c04bebe7eea55e1fc20f))
+
 ## [2.0.0](https://github.com/huseyin-ozkan/ozkan-accountancy-website/compare/v1.4.0...v1.5.0) (2026-05-15)
 
 
