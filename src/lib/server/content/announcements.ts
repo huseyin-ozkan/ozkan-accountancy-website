@@ -1,6 +1,6 @@
 import { sanityClient } from '$lib/server/sanity/client'
 
-const QUERY = `*[_type == "announcement"]{
+const QUERY = `*[_type == "announcement"] | order(_createdAt desc) {
   "id": _id,
   "createdAt": _createdAt,
   "updatedAt": _updatedAt,
